@@ -1,0 +1,60 @@
+  <html>
+  <head>
+  <title>Days left in the 2012 Code for America Fellowship</title>
+    <style>
+      #countdown {
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+      #countdown img.ball {
+        width: 14px;
+        height: 14px;
+        position: absolute;
+      }
+      #canvas-content {
+        margin: 100px auto 0 auto;
+        width: 930px;
+        z-index: 99;
+        position: relative;
+      }
+      #content {
+        padding: 40px;
+        background: #FFF;
+        width: 850px;
+        margin: 50px auto 100px auto;
+        -moz-box-shadow: 0 0 6px #c6c6c6;
+        -webkit-box-shadow: 0 0 6px #c6c6c6;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px 4px 4px 4px;
+        overflow: auto;
+        z-index: 10;
+        position: relative;
+      }
+    </style>
+    <script type="text/javascript">
+    function init() {
+      if (io.el('countdown')) {
+        io.el('countdown').setAttribute('height',(window.innerHeight-370) + 'px');
+      }
+    }
+    </script>
+  </head>
+  <body onload="init();">
+    <div id="canvas-content" style="width:900px;height:100%">
+      <div id="countdown">
+        <script>
+          document.getElementsByTagName('body')[0].style.overflow = 'hidden';
+        </script>
+        <noscript>Not supported in your browser</noscript>
+      </div>
+    </div>
+    </center>
+    <script src="base.js"></script>
+    <script src="box2d.js"></script>
+    <script src="io.js"></script>
+  </body>
+</html>
