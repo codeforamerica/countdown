@@ -1,0 +1,4 @@
+Countdown Timer
+-------------
+
+Google i/o style countdown timer using Ruby and Sinatra
