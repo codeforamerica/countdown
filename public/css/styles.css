@@ -135,10 +135,10 @@ text-align: center;}
  padding-top: 27px;
 }
 #header a#logo {
-  width: 150px;
-  height: 86px;
+  width: 250px;
+  height: 101px;
   float: left;
-  background: url(/images/logo.png) 0 0 no-repeat;
+  background: url(/images/cfa-full-logo.png) 0 0 no-repeat;
   margin-top: 3px;
 }
 #header #tag-line {
@@ -161,67 +161,6 @@ text-shadow: #999 1px 1px 1px;
    font-weight: normal;
 }
 /*   ============   Home Page   ============   */
-#become-wrap {
-  width: 960px;
-}
-#become-wrap .box {
-  float: left;
-  width: 220px;
-  margin: 12px 10px;
-}
-#become-wrap .box h2 {
-  color: #000;
-  text-transform: uppercase;
-  font-size: 1.42em;
-  margin-bottom: 10px;
-  display: -moz-inline-stack;
-  display: inline-block;
-  padding-right: 18px;
-  background: url(/images/red-arrow.gif) 100% 50% no-repeat;
-text-shadow: #CCC 1px 1px 1px;
-}
-#become-wrap .box h2 strong {
-  width: 20px;
-  height: 21px;
-  line-height: 21px;
-  background: url(/images/numbers-bg.gif) 0 0 no-repeat;
-  color: #fff;
-  font-size: 0.94em;
-  display: -moz-inline-stack;
-  display: inline-block;
-  text-align: center;
-  margin-right: 6px;
-}
-
-#become-wrap .box ul {
-  padding-top: 11px;
-  background: url(/images/horizontal-dots.gif) 0 0 repeat-x;
-}
-#become-wrap .box li {
-  margin-bottom: 10px;
-}
-#become-wrap .box li a {
-  padding-left: 21px;
-  display: block;
-  background: url(/images/bullet-red-arrow.gif) 0 3px no-repeat;
-  color: #707070;
-  font-size: 1.17em;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-#become-wrap .box li a:hover {
-  color: #cb2a3c;
-}
-
-li.percentage {
-    vertical-align: middle;
-}
-li.percentage strong {
-    font-size: 40px;
-    margin-left: 5px;
-}
-
 
 /*   ============   FOOTER   ============   */
 
