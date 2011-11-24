@@ -1,0 +1,321 @@
+/*
+===============
+developed by Vel
+at http://www.vhg-design.com
+===============
+*/
+html, body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 62.5%;
+}
+
+body {
+  color: #666;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  text-shadow: none;
+}
+
+a {
+  color: #cb2a3c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {line-height: 1.4em; font-size: 14px;}
+
+ul, ol, dl, dt, dd {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.entry-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 25px;}
+
+h1, h2, h3, h4, h5, h6, form, fieldset {
+  margin: 0;
+  padding: 0;
+}
+fieldset {
+  border: none;
+}
+input, select, textarea, button {
+  font: normal 1em Arial, Helvetica, sans-serif;
+  border: none;
+  padding: 0;
+  line-height: 27px;
+  background: #ececec;
+  color: #666666;
+  font-size: 1.00em;
+}
+
+blockquote {
+  border-left: 5px #CCC solid;
+  padding-left: 10px;
+}
+
+img.alignleft  { float: left; height: auto; margin: 5px 15px 5px 0; }
+img.alignright  { float: right; height: auto; margin: 5px 0 5px 15px; }
+img.aligncenter  { text-align: center; margin-bottom:15px;}
+img.aligncenter  { margin-left:auto; margin-right:auto; display:block; }
+
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+}
+
+.wrap {
+  margin: 0 auto;
+  text-align: left;
+  width: 940px;
+  clear: both;
+}
+.wrap-b {
+  padding-bottom: 15px;
+  background: url(/images/wrap-bg-b.gif) 0 100% repeat-x;
+  margin-bottom: 10px;
+
+}
+.wrap-t {
+  padding-top: 15px;
+  background: url(/images/wrap-bg-t.gif) 0 0 repeat-x;
+  margin-top: 10px;
+
+}
+
+#twocols-container {
+  float: right;
+  position: relative;
+  width: 730px;
+}
+.like-btn {
+  display: block;
+  text-indent: -999em;
+  outline: none;
+}
+
+a img, img a {text-decoration: none; border: none;}
+
+
+.user {float: left; margin-right: 5px;}
+.author-list {min-height: 250px;}
+
+.wp-caption-text {font-style: italic;
+font-size: .8em;
+text-align: center;}
+
+.wp-caption .alignright {float: right;}
+.wp-caption .alignleft {float: left;}
+
+
+/*   ============   HEADER   ============   */
+
+#header {
+  height: 167px;
+  position: relative;
+ padding-top: 27px;
+}
+#header a#logo {
+  width: 150px;
+  height: 86px;
+  float: left;
+  background: url(/images/logo.png) 0 0 no-repeat;
+  margin-top: 3px;
+}
+#header #tag-line {
+  height: 75px;
+  width: 420px;
+  background: url(/images/vertical-dot.gif) 0 0 repeat-y;
+  margin-left: 35px;
+  padding-left: 35px;
+  float: left;
+}
+#header #tag-line h1 {
+  font-size: 1.75em;
+  text-transform: uppercase;
+  margin:2px 0 8px;
+  letter-spacing: 1px;
+text-shadow: #999 1px 1px 1px;
+}
+#header #tag-line h2 {
+  font-size: 1.25em;
+   font-weight: normal;
+}
+/*   ============   Home Page   ============   */
+#become-wrap {
+  width: 960px;
+}
+#become-wrap .box {
+  float: left;
+  width: 220px;
+  margin: 12px 10px;
+}
+#become-wrap .box h2 {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1.42em;
+  margin-bottom: 10px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  padding-right: 18px;
+  background: url(/images/red-arrow.gif) 100% 50% no-repeat;
+text-shadow: #CCC 1px 1px 1px;
+}
+#become-wrap .box h2 strong {
+  width: 20px;
+  height: 21px;
+  line-height: 21px;
+  background: url(/images/numbers-bg.gif) 0 0 no-repeat;
+  color: #fff;
+  font-size: 0.94em;
+  display: -moz-inline-stack;
+  display: inline-block;
+  text-align: center;
+  margin-right: 6px;
+}
+
+#become-wrap .box ul {
+  padding-top: 11px;
+  background: url(/images/horizontal-dots.gif) 0 0 repeat-x;
+}
+#become-wrap .box li {
+  margin-bottom: 10px;
+}
+#become-wrap .box li a {
+  padding-left: 21px;
+  display: block;
+  background: url(/images/bullet-red-arrow.gif) 0 3px no-repeat;
+  color: #707070;
+  font-size: 1.17em;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#become-wrap .box li a:hover {
+  color: #cb2a3c;
+}
+
+li.percentage {
+    vertical-align: middle;
+}
+li.percentage strong {
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+
+/*   ============   FOOTER   ============   */
+
+#footer {
+  clear: both;
+  background: #ebebeb url(/images/footer-bg.gif) 0 100% repeat-x;
+  margin-top: 50px;
+  padding: 20px 0 45px;
+}
+#footer .wrap {
+  position: relative;
+}
+#footer .wrap #logo-f {
+  position: absolute;
+  right: 10px;
+  bottom: -5px;
+}
+#footer .wrap #logo-f a.like-btn {
+  height: 40px;
+  width: 100px;
+  background: url(/images/logo-f.png);
+}
+
+
+#footer li {
+  float: left;
+  margin-left: 38px;
+  line-height: 18px;
+}
+#footer li:first-child {
+  margin-left: 0;
+}
+#footer li h4 {
+  font-size: 1.17em;
+  text-transform: uppercase;
+}
+#footer li a {
+  color: #666;
+  text-decoration: none;
+}
+#footer li a:hover {
+  color: #cb2a3c;
+}
+
+
+#footer li li {
+  float: none;
+  margin-left: 0;
+}
+#footer #copyr {
+  clear: both;
+  padding-top: 35px;
+}
+#footer #copyr a {
+  color: #666;
+}
+#footer #copyr a:hover {
+ color: #cb2a3c;
+}
+
+ul h4 {
+    margin-bottom: 5px;
+    background: url(/images/horizontal-dots.gif) 0 0 repeat-x;
+}
+
+.bigger_box {
+  float: left;
+  width: 400px;
+  margin: 12px 10px;
+}
+
+
+/*   ---------   Float containers fix   ---------   */
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+  height: 1%;
+}
+.clearfix {
+  display: block;
+}
+
+
+
+
