@@ -1,8 +1,6 @@
 # Countdown Timer
 Google I/O style countdown timer in Ruby/Sinatra/Javascript
 
-[![Build Status](https://secure.travis-ci.org/codeforamerica/adopt-a-hydrant.png)](http://travis-ci.org/codeforamerica/adopt-a-hydrant)
-
 ## <a name="demo"></a>Demo
 You can see a running version of the application at
 [http://http://cfa-countdown.heroku.com//](http://cfa-countdown.heroku.com/).
